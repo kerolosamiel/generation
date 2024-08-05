@@ -1,3 +1,4 @@
+/* Navbar */
 .nav-container {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
@@ -52,3 +53,21 @@
 }
 
 /* End Navbar */
+
+/* Hero Section */
+.hero-container .text-bx {
+  padding-left: 4em !important;
+  padding-right: 4em !important;
+}
+
+.hero-container .text-bx h1 {
+  font-size: 6.688em;
+  font-weight: 900;
+}
+
+.hero-container .text-bx h3 {
+  font-weight: 700;
+  line-height: 1.5;
+  width: 75%;
+  font-size: 1.5em;
+}

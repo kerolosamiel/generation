@@ -33,7 +33,6 @@ Set Variables
   --orange-color: #f9a620;
 
   --font-primary: "Inter", sans-serif;
-  --font-secondry: "Inria Serif", serif;
 
   --spacing-small: 0.5em;
   --spacing-medium: 1em;
@@ -71,7 +70,6 @@ h6 {
   margin: 0;
   padding: 0;
   color: var(--primary-color);
-  font-family: var(--font-secondry);
 }
 
 p,
