@@ -14,3 +14,41 @@
 .nav-container .nav-menu .buttons button:nth-child(2) {
   background-color: #ffffff;
 }
+
+.nav-container .nav-menu .menu ul li ul,
+.nav-container .nav-menu .buttons ul {
+  min-width: 15em;
+  font-weight: 800;
+  background: var(--links-hover);
+  border-radius: var(--links-radius);
+  padding: var(--spacing-medium) !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+  left: 0;
+  top: 100%;
+}
+
+.nav-container .nav-menu .menu ul li ul a,
+.nav-container .nav-menu .buttons ul a {
+  font-weight: 600;
+}
+
+.nav-container .nav-menu .menu ul li ul a:hover,
+.nav-container .nav-menu .buttons ul a:hover {
+  background: unset;
+}
+
+.nav-container .nav-menu .menu ul li:hover ul,
+.nav-container .nav-menu .buttons:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-container .nav-menu .buttons ul {
+  right: 0 !important;
+  left: unset;
+  top: 120%;
+}
+
+/* End Navbar */
