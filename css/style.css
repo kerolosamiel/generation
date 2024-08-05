@@ -1,0 +1,16 @@
+.nav-container {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+
+.nav-container .logo {
+  min-width: 110px;
+}
+
+.nav-container .nav-menu .buttons button:nth-child(1) {
+  background-color: var(--secondary-color);
+}
+
+.nav-container .nav-menu .buttons button:nth-child(2) {
+  background-color: #ffffff;
+}
