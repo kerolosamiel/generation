@@ -25,7 +25,8 @@ Set Variables
   --background-color: #f7f7f8;
   --primary-color: #001725;
   --text-color: #364853;
-  --secondary-color: #32c350;
+  --secondary-color: #80b9dc;
+  --green-color: #32c350;
   --accent-color: #1e73be;
   --hover-color: #aad1e8;
   --links-hover: #aad1e847;
@@ -36,9 +37,10 @@ Set Variables
 
   --spacing-small: 0.5em;
   --spacing-medium: 1em;
-  --spacing-large: 2em;
+  --spacing-large: 2.5em;
 
   --links-radius: 0.5em;
+  --box-radius: 2em;
 }
 
 /*
@@ -98,8 +100,9 @@ button {
   border-radius: var(--links-radius);
   box-shadow: 4px 4px #000000;
   transition: 0.3s ease;
-  padding-top: 0.6em;
-  padding-bottom: 0.6em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  background-color: var(--secondary-color);
 }
 
 button:hover {

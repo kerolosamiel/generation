@@ -9,7 +9,7 @@
 }
 
 .nav-container .nav-menu .buttons button:nth-child(1) {
-  background-color: var(--secondary-color);
+  background-color: var(--green-color);
 }
 
 .nav-container .nav-menu .buttons button:nth-child(2) {
@@ -56,8 +56,9 @@
 
 /* Hero Section */
 .hero-container .text-bx {
-  padding-left: 4em !important;
-  padding-right: 4em !important;
+  width: 90%;
+  max-width: 1215px;
+  margin: 0 auto;
 }
 
 .hero-container .text-bx h1 {
@@ -71,3 +72,90 @@
   width: 75%;
   font-size: 1.5em;
 }
+/* End hero section */
+
+/* About us section */
+.about-container {
+  width: 90%;
+  max-width: 1215px;
+}
+
+.about-container .about-cont .title h1 {
+  font-size: 3.25em;
+  font-weight: 600;
+}
+
+.about-container .about-cont .text-bx p {
+  font-size: 1.3125em;
+}
+
+.about-container .image {
+  border-radius: var(--box-radius);
+  overflow: hidden;
+  box-shadow: 20px 20px var(--accent-color);
+}
+/* End about us section */
+
+/* Our impact section */
+.impact-container {
+  width: 90%;
+  max-width: 1215px;
+}
+
+.impact-container .title h3 {
+  font-size: 1.2em;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.impact-container .title h1 {
+  font-size: 2.25em;
+  font-weight: 900;
+  width: 65%;
+}
+
+.impact-container .impacts-cont {
+  gap: 2.5em;
+}
+
+.impact-container .impacts-cont .impact-bx {
+  width: calc((100% - 5em) / 3);
+}
+
+.impact-container .impacts-cont .impact-bx .title h2 {
+  font-size: 2.25em;
+  font-weight: 900;
+}
+
+.impact-container .impacts-cont .impact-bx p {
+  color: var(--primary-color);
+}
+
+.impact-container .impacts-cont .impact-bx .lines h3 {
+  font-size: 4.68em;
+  font-weight: 900;
+  background-color: var(--accent-color);
+  padding: 0.1em;
+  text-align: center;
+  border-radius: 0.3em;
+  width: fit-content;
+}
+
+.impact-container .impacts-cont .impact-bx .lines p {
+  font-size: 1.06em;
+  font-weight: 600;
+}
+
+.impact-container .impacts-cont .impact-bx:nth-child(2) .lines h3 {
+  background-color: var(--green-color);
+}
+
+.impact-container .impacts-cont .impact-bx:nth-child(3) .lines .nums p {
+  font-size: 0.8em;
+}
+
+.impact-container .impacts-cont .impact-bx:nth-child(3) .lines .nums h3 {
+  background-color: var(--yellow-color);
+  font-size: 3em;
+}
+/* End our impacts section */
